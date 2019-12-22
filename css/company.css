@@ -1,0 +1,45 @@
+#company{
+  /* display: inline-block; */
+  color: black;
+  text-align: center;
+  weight:700px;
+  height: auto;
+  margin:40px 200px 0 200px;
+  border-radius: 20px;
+}
+body{
+  font-family: 'Sriracha', cursive;
+}
+#name h1{
+  display: inline-block;
+}
+#name h2{
+  display: inline-block;
+}
+
+#company {
+    padding: 0.5em 1em;
+    background: -moz-linear-gradient(#ffb03c, #ff708d);
+    background: -webkit-linear-gradient(#ffb03c, #ff708d);
+    background: linear-gradient(to right, #ffb03c, #ff708d);
+    color: #FFF;
+}
+#company h1 {
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width: 500px){
+  #company{
+    /* display: inline-block; */
+    color: black;
+    text-align: center;
+    weight:700px;
+    height: auto;
+    margin: 30px;
+    border-radius: 20px;
+    font-size: 10px;
+  }
+  iframe{
+    width: 300px;
+  }
+}

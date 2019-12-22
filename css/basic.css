@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+}
+header{
+  background-color: #7cfc00;
+  width: auto;
+  height: 70px;
+  margin: 0;
+}
+header h1{
+  font-size: 30px;
+  float: left;
+}
+#menu{
+  text-align: center;
+  list-style-type: none;
+  float: right;
+  font-family: 'Merienda One', cursive;
+}
+#menu li {
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 20px;
+  border-right: solid;
+  color: black;
+}
+li a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+li a:hover{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  border-radius: 20px;
+  font-size: 30px;
+  transition-duration:2s;
+}
+body{
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../img/pink-1311251_1920.jpg");
+}
+@media screen and (max-width: 500px){
+  header{
+    background-color: #7cfc00;
+    width: auto;
+    height: 230px;
+    margin: 0;
+  }
+  header h1{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 0px;
+  }
+  #menu{
+    margin-right: 50px;
+    margin-top: 0px;
+    width: 300px;
+
+  }
+  #menu li {
+    list-style: none;
+    /* display: inline-block; */
+    text-decoration: none;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 2px;
+    border-right: solid;
+    color: black;
+    width: 200px;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 15px;
+  }
+}
